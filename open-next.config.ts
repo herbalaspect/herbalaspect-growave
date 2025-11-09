@@ -1,3 +1,7 @@
-// Minimal OpenNext config for Webflow Cloud.
-// Let it use its defaults; we don't need to customize anything for this tiny app.
-export default {};
+// Minimal valid OpenNext config for Cloudflare
+// It just needs a "default" key with an object.
+const config = {
+  default: {}
+};
+
+export default config;
