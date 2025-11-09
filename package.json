@@ -6,6 +6,6 @@
     "build": "opennextjs-cloudflare build"
   },
   "devDependencies": {
-    "opennextjs-cloudflare": "latest"
+    "@opennextjs/cloudflare": "1.6.5"
   }
 }
