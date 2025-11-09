@@ -2,10 +2,10 @@
   "name": "herbalaspect-growave",
   "version": "1.0.0",
   "description": "Growave authentication endpoint for Herbal Aspect using Webflow Cloud.",
-  "main": "routes/growave-auth.js",
   "scripts": {
-    "build": "echo 'No build step required'",
-    "start": "node routes/growave-auth.js"
+    "build": "opennextjs-cloudflare build"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "opennextjs-cloudflare": "latest"
+  }
 }
