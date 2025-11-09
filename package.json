@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Growave authentication endpoint for Herbal Aspect using Webflow Cloud.",
   "scripts": {
-    "build": "opennextjs-cloudflare build"
+    "build": "next build"
   },
   "dependencies": {
     "next": "14.2.5",
